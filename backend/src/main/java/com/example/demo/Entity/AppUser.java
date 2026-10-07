@@ -1,6 +1,6 @@
 package com.example.demo.entity;
 
-import lombok.Data;
+import lombok.*;
 import jakarta.persistence.*;
 
 @Data
