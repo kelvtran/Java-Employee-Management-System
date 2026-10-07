@@ -1,8 +1,8 @@
 package com.example.demo.controller;
 
-package com.example.demo.AuthResponse;
-package com.example.demo.LoginRequest;
-package com.example.demo.AuthService;
+import com.example.demo.AuthResponse;
+import com.example.demo.LoginRequest;
+import com.example.demo.AuthService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
