@@ -4,6 +4,12 @@ import com.example.demo.AuthResponse;
 import com.example.demo.LoginRequest;
 import com.example.demo.AppUser;
 import com.example.demo.UserRepository;
+
+//CORS
+@RestController
+@RequestMapping("/api/auth")
+@CrossOrigin(origins = "http://localhost:*") // or "*" for dev
+
 // import com.yourapp.security.JwtService;
 // import org.springframework.security.authentication.BadCredentialsException;
 // import org.springframework.security.crypto.password.PasswordEncoder;
